@@ -1,0 +1,72 @@
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  /*background-image: */
+}
+
+
+.gif-background {
+  width: 100vw;
+  height: 100vw;
+  /*background-color: red;*/
+  background-image: url(../images/spiral1.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -25vw;
+}
+
+.gif-background2 {
+  width: 100vw;
+  height: 100vw;
+  /*background-color: red;*/
+  background-image: url(../images/spiral2.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -25vw;
+}
+
+.gif-background3 {
+  width: 100vw;
+  height: 100vw;
+  /*background-color: red;*/
+  background-image: url(../images/spiral3white.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -25vw;
+}
+
+
+
+.rotate {
+  animation: rotate linear 3s;
+  animation-iteration-count: infinite;
+}
+
+.rotate2 {
+  animation: rotate linear 9s;
+  animation-iteration-count: infinite;
+}
+
+.rotate3 {
+  animation: rotate linear 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
